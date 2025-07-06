@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package authservice.api.v1;
+
+option go_package = "authservice";
+
+message User {
+  string user_id = 1;
+  string username = 2;
+  string email = 3;
+}
