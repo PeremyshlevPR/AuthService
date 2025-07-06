@@ -1,0 +1,4 @@
+DROP TABLE IF EXISTS user_permissions;
+DROP TABLE IF EXISTS permissions;
+DROP TABLE IF EXISTS users;
+DROP EXTENSION IF EXISTS "uuid-ossp";
