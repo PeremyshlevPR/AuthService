@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package authservice.api.v1;
 
-option go_package = "authservice";
+option go_package = "github.com/PeremyshlevPR/AuthService/proto/authservice/api/v1;authservice";
 
 message User {
   string user_id = 1;

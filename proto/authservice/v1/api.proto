@@ -4,7 +4,7 @@ package authservice.api.v1;
 
 import "user.proto";
 
-option go_package = "authservice";
+option go_package = "github.com/PeremyshlevPR/AuthService/proto/authservice/api/v1;authservice";
 
 service AuthService {
     rpc Register(RegisterRequest) returns (RegisterResponse);

@@ -1,5 +1,5 @@
-PROTO_DIR=proto
-PROTO_OUT_DIR=proto
+PROTO_DIR=proto/authservice/v1
+PROTO_OUT_DIR=proto/authservice/v1
 
 PROTO_FILES=$(wildcard $(PROTO_DIR)/*.proto)
 
